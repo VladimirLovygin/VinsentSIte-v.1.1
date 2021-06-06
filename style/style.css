@@ -1,0 +1,105 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v3-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/inter-v3-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/inter-v3-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/inter-v3-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/inter-v3-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/inter-v3-latin-regular.svg#Inter') format('svg');
+    /* Legacy iOS */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v3-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/inter-v3-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/inter-v3-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/inter-v3-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/inter-v3-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/inter-v3-latin-500.svg#Inter') format('svg');
+    /* Legacy iOS */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrap {
+    max-width: 1216;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header_wrap,
+.header_navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.header_logo {
+    padding-left: 10px;
+}
+
+.top_image {
+    width: 640px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.heading_text {
+    position: relative;
+    background-color: aqua;
+    width: 928px;
+    height: 312px;
+    top: 244px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.top_text {
+    z-index: 1;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 928px;
+    height: 312px;
+    
+}
